@@ -12,3 +12,8 @@ SELECT first_name, last_name, department, tshirt_size
 from Employees
 where not department = 'Sales' or department = 'Marketing' and tshirt_size = 'L'
 and first_name is not 'Rikki';
+
+
+SELECT * 
+from Employees
+LIMIT 10
